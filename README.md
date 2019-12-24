@@ -15,6 +15,13 @@ Two default user credentials:
 
 SETTING UP AWS TO WORK WITH CODE:
 
+To Host the website follow the following link, create an S3 bucket, and paste all the files found in the repository.
+https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-1/
+
+To create an Identity Pool follow the link
+https://docs.aws.amazon.com/cognito/latest/developerguide/tutorial-create-identity-pool.html
+
+Finally, change the following files to reflect the new S3 bucket name, bucket region, and identity pool ID.
 Files with AWS info that must be edited:
 - accounts.js
 - manage-users.js
